@@ -5,12 +5,24 @@
 div#wall #tag-2 {
     display: none;
   }
-div#wall #tag-3.slick {
-    display: none;
-  }
+
 div#wall .parent #tag-4 {
     display: none;
   }
-#wall .parent #tag-5  {
+body div#wall #tag-3.slick {
+    
     display: none;
+}
+
+body div#wall .parent #tag-5.slick {
+  
+  display: none;
+}
+body div#wall div.parent div:last-child div#tag-6 {
+ 
+  display: none;
+}
+html body div#wall div.parent div > #tag-7.slick {
+  
+  display: none;
 }
